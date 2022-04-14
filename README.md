@@ -2,7 +2,7 @@
 
 
 
-<img src="./assets/form.PNG"  alt="Meu Form">
+<img src="./assets/form.PNG" heitht="600"   alt="Meu Form">
 
 > Resultado do Desafio HTML com CSS
 
