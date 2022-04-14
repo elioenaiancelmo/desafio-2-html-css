@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Meu form</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <form action="" method="post" enctype="multipart/form-data">
+
+            <h2>Cadastro</h2>
+
+            <label for="name">Nome:</label>
+            <input type="text" name="nome" id="name" required>
+
+            <label for="email">E-mail:</label>
+            <input type="email" name="email" id="email" required>
+       
+            <label for="iadede">Idade:</label>
+            <input type="number" name="idade" id="idade" min="12" required>
+
+            <label for="data-nasc">Data de Nascimento</label>
+            <input type="date" name="data-nasc" id="data-nasc" required>
+
+            <label>Onde você possue conta:</label>
+            <input class="check" type="checkbox" name="instagran">Instagran
+            <input class="check" type="checkbox" name="facebook">Facebook
+            <input class="check" type="checkbox" name="youtube">YouTube
+
+            <label>Sexo:</label>
+            <input class="raibuton" type="radio" name="sexo" value="Masculino">Masculino
+            <input class="raibuton" type="radio" name="sexo" value="Femenino">Feminino
+
+            <label>Cor dos Olhos</label>
+            <input class="olhos" type="color" name="cor-olhos">
+
+            <label for="biofrafia">Biografia</label>
+            <textarea name="biografia" id="biofrafia" cols="25" rows="3"></textarea>
+
+            <label>Foto do perfil</label>
+            <input class="photo" type="file" name="foto" accept="image/*">
+           
+            <label>Telefone:</label>
+            <input type="tel" name="telefone">
+          
+
+            <label>Link do Facebook</label>
+            <input type="url" name="url">
+            
+            <label>Senha</label>
+            <input type="password" name="senha" min="6" max="8" required>
+            
+            <button  type="reset" name="reset">Limpar</button>
+            <button  type="submit" name="submit">Enviar Dados</button>
+        </form>
+    </div>
+</body>
+
+</html>
